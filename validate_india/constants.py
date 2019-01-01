@@ -1,0 +1,7 @@
+PAN_REGEX = r'^[A-Za-z]{5}\d{4}[A-Za-z]$'
+AADHAAR_REGEX = r'(^\d{12}$)|(^\d{4}-\d{4}-\d{4}$)|(^\d{4} \d{4} \d{4}$)'
+IFSC_REGEX = r'^[a-zA-Z]{4}0[0-9a-zA-Z]{6}'
+MOBILE_REGEX = r'^(?:(?:\+|0{0,2})91(\s*[\ -]\s*)?|[0]?)?[789]\d{9}|(\d[ -]?){10}\d$'
+ESIC_REGEX = r'^\d{10}$'
+UAN_REGEX = r'^\d{12}$'
+GST_REGEX = r'^\d{2}[A-Z]{5}\d{4}[A-Z]{1}[1-9A-Z]{1}Z[0-9A-Z]{1}$'
